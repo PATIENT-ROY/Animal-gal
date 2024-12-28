@@ -1,0 +1,18 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; // Равномерное распределение карточек
+}
+
+.card {
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 250px; // Увеличьте ширину
+  height: 300px; // Установите высоту
+}
+
+.labelIcon {
+  width: 20px; // Пример размера для иконки
+}
